@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url("../images/green.jpeg") center/cover no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 380px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #0002;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #26382d;
+}
+
+.AddExpense {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AddExpense label {
+    font-weight: bold;
+    color: #333;
+}
+
+.AddExpense input,
+.AddExpense select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.AddExpense input:focus,
+.AddExpense select:focus {
+    border-color: #26382d;
+}
+
+.AddExpense button {
+    padding: 12px;
+    margin-top: 10px;
+    background: #26382d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.AddExpense button:hover {
+    background: #415b49;
+}
